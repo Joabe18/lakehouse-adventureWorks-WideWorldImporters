@@ -12,8 +12,6 @@ O projeto foi desenhado aplicando os princípios de engenharia de sistemas de da
 
 ![Arquitetura do Lakehouse](docs/ImgArquiteturaLakehouseProjetoAW_WWI.png)
 
-*(Substitua o caminho acima pelo nome exato do arquivo da sua imagem salva na pasta `docs/`).*
-
 ### Fluxo de Dados
 1. **Fontes OLTP (Docker):** Instância SQL Server 2025 rodando localmente via Docker Compose hospedando os bancos relacionais *AdventureWorks* e *Wide World Importers*.
 2. **Camada Bronze (Amazon S3 - Parquet):** Extração *full dump* dinâmica via PySpark (JDBC), com tratamento automático de tipos espaciais (`geography`, `geometry`, `hierarchyid`) e injeção de metadados de linhagem.
