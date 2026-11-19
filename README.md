@@ -10,7 +10,7 @@ O projeto foi desenhado aplicando os princípios de engenharia de sistemas de da
 
 ## Arquitetura da Solução
 
-![Arquitetura do Lakehouse](docs/arquitetura-lakehouse.png)
+![Arquitetura do Lakehouse](docs/ImgArquiteturaLakehouseProjetoAW_WWI.png)
 
 *(Substitua o caminho acima pelo nome exato do arquivo da sua imagem salva na pasta `docs/`).*
 
