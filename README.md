@@ -1,1 +1,0 @@
-# lakehouse-adventureWorks-WideWorldImporters
